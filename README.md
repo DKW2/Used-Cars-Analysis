@@ -12,7 +12,7 @@ From these models, I analyzed which features were the most impactful in determin
 
 As we can see, **year, cylinders, odometer, and fuel** all have impact with year being the standout feature. Besides these 4, we note that **manufacturer, type, and drive** also have impact, but not as much. Any other feature such as **paint_color** or **condition** had very little impact.
 
-Now that we know which features are impactful, I looked for how they exactly affect sales price by analyzing the linear regression model. Here are the results that I found (also ordered by importance):
+Now that we know which features are impactful, I looked for how they exactly affect sales price by analyzing the coefficients in the linear regression model. Here are the results that I found (also ordered by importance):
 * Used cars that were manufactured during recent years (2017-Present) will have a higher price than those that were released earlier. However, some antique cars that were manufactured way back in the past (1920's - 1950's) do have higher prices.
 * The more cylinders a used car has, the higher the sales price. This is probably due to the car having higher performance.
 * The price of used cars decreases as the odometer of the car increases. This is likely due to the customer having the perception of the car being too used.
