@@ -4,7 +4,7 @@ This project is my second practical application from UC Berkeley's MLAI bootcamp
 # Report
 Starting with a dataset of used car prices containing 426880 rows, most of the data are missing values while others had outliers that needed to be filtered out. In addition, features such as "id", "VIN", and "model" were removed from the dataset to maximize the amount of remaining data and remove unnecessary features. As a result, the main dataset was reduced to around 102029 rows, which is around 25% of the original dataset. Though reduced by such an amount, it still is a lot of data to conduct analysis on.
 
-Utilizing multiple regression models such as Linear Regression and Ridge, I tried training the best model to predict used car sales prices. The models all shared similar error scores, with most having a mean error of around \$7200 and the worst at \$8700:
+Utilizing multiple regression models such as Linear Regression and Ridge, I tried training the best model to predict used car sales prices. The models all shared similar error scores, with most having a RMSE of around \$7200 and the worst at \$8700. I'm using RMSE to make the error difference more clear:
 
 ![](images/testRMSE.png)
 
